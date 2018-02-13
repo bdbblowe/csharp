@@ -1,4 +1,4 @@
-// This file was auto-generated based on version 1.1.0 of the canonical data.
+﻿// This file was auto-generated based on version 1.1.0 of the canonical data.
 
 using Xunit;
 
@@ -16,25 +16,25 @@ public class PigLatinTest
         Assert.Equal("earay", PigLatin.Translate("ear"));
     }
 
-    [Fact(Skip = "Remove to run test")]
+    [Fact]
     public void Word_beginning_with_i()
     {
         Assert.Equal("iglooay", PigLatin.Translate("igloo"));
     }
 
-    [Fact(Skip = "Remove to run test")]
+    [Fact]
     public void Word_beginning_with_o()
     {
         Assert.Equal("objectay", PigLatin.Translate("object"));
     }
 
-    [Fact(Skip = "Remove to run test")]
+    [Fact]
     public void Word_beginning_with_u()
     {
         Assert.Equal("underay", PigLatin.Translate("under"));
     }
 
-    [Fact(Skip = "Remove to run test")]
+    [Fact]
     public void Word_beginning_with_a_vowel_and_followed_by_a_qu()
     {
         Assert.Equal("equalay", PigLatin.Translate("equal"));
